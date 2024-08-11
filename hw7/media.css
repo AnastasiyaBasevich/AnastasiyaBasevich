@@ -1,0 +1,50 @@
+@media (max-width: 1000px) {
+    div.menu {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    div.menu li {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    div.menu h3 {
+        margin: 0 auto;       
+    }
+
+    div.menu ul {
+        margin: 0 auto;       
+    }
+
+
+    div.text-under {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 500px) {
+    div.text-under img {
+        float: none;
+        width: 450px;
+
+    }
+
+    div.text {
+        background: none;
+    }
+
+    div.text p{
+        font-size: 20px;
+
+    }
+
+    div.menu li {
+        font-size: 20px;
+    }
+}

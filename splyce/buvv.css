@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+.container {
+    background:url(Vector\ 5.png),
+     url(background\ 1.png),
+     url(Vector\ 8.png),
+     url(Rectangle\ 11.png),
+     url(img\ 5.png),
+     url(Rectangle\ 8.png),
+     url(Patterns.png),
+     url(black.png);
+                      
+    background-position: right top,  top, center 1336px, center 1621px, 578px 3170px, center 4875px, center 4235px, center 3354px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    width: 1440px; 
+    padding-top: 34px;
+    margin: 0 auto;
+}
+
+.content {
+    width: 1280px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+}
+
+.header {
+    font-weight: 10px;
+    height: 670px;
+}
+
+.header ul {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 40px;
+    padding-left: 0px;
+    
+}
+
+.header li {
+    display: inline-block;
+    margin-left: 40px;
+    
+}
+
+button {
+    border-radius: 105PX; 
+    padding: 10px 30px;  
+    background-color: rgba(0, 51, 255, 100%); 
+    color: white;
+}
+
+.mus_start {
+    margin-top: 120px;
+    width: 510px;
+}
+
+.mus_start p {
+    margin-top: 24px;
+}
+
+.feature p{
+    text-align: center;
+    color: rgba(96, 96, 96, 1);
+    font-size: 13px;
+}
+
+.feature {
+    margin-top: 95px;
+}
+
+.brands {
+    text-align: center;
+}
+
+.brands img {
+    margin: 40px;
+}
+
+.sounds {
+    text-align: center;
+    margin-top: 127px;
+}
+
+span {
+    color: rgba(0, 51, 255, 1);
+}
+
+.zag {
+    color: rgba(96, 96, 96, 0.5);
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.text {
+    color: rgba(149, 138, 138, 1); 
+    font-size: 18px; 
+    margin-top: 18px;
+}
+
+.plugins {
+    margin-top: 143px;
+}
+
+.plugins_text {
+    text-align: left; 
+    float: right;
+    margin: 109px 168px 0 0;
+}
+
+.creators {
+    margin-top: 254px;
+    padding: 1px;
+    color: white;
+}
+
+.creators_text {
+    text-align: left;
+    margin-top: 230px;
+    float: left;
+}
+
+.card {
+    width: 290px;
+    height: 216px;
+    background-color: black;
+    padding: 28px;
+    float: left;
+    margin: 20px;
+}
+
+.card_text {
+    color: white;
+    font-size: 18px;
+}
+
+.podpis {
+    vertical-align: middle;
+    margin-top: 25px;
+    color: white;
+    padding: 1px;
+}
+
+.podpis_text {
+margin-top: 7px;}
+
+.podpis p:first-child {
+    font-size: 11px;
+}
+
+.podpis p:last-child {
+    font-size: 8px;
+}
+
+.feture {
+    width: 290px;
+    display: inline-block;
+    color: white;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 113px 35px 0 0;
+}
+
+.feture p:last-child{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.feture p{
+    margin-top: 18px;
+}
+
+.change button {
+    background-color: rgba(255, 255, 255, 0); 
+    border: 1px solid white; 
+    margin-top: 32px;
+} 
+
+.footer {
+    margin-top: 22px;
+}
+
+.links {
+    font-size: 13px;
+    color: rgba(96, 96, 96, 1);
+    margin-top: 79px;
+    float: left;
+    margin-left: 50px;
+}
+
+.links img {
+    margin: 25px 17px 0 0;
+}
+
+.links p:first-child {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.links p {
+    margin-top: 17px;
+    margin-right: 9px;
+}
+
+#media p:not(:first-child){
+    display: inline-block;
+    font-size: 10px;
+
+}
+
+.footer_group {
+    float: left;
+}

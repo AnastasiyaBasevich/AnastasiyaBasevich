@@ -1,0 +1,23 @@
+ .menu {
+    width: 200px; 
+    float: left;
+ }
+
+ .menu h3{
+    margin-left: 10px;
+ }
+
+ .menu ul{
+    margin-left: -10px;
+ }
+
+.text-under {
+    background-color: white;
+    margin-left: 200px; 
+    padding: 1px; 
+}
+
+.text {
+    background: url(ball.png) repeat-y right; 
+    padding-left: 10px;
+}
